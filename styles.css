@@ -26,6 +26,12 @@ nav{
     max-height: 500px;
 }
 
+
+.carousel-caption{
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    font-size: 20px;
+}
+
 /* fin styles para el carrousel */
 
 /* inicio styles para el seccion beneficios Index */
@@ -57,6 +63,7 @@ nav{
 .galeria-productos{
     background-color: beige;
     padding: 50px;
+    text-shadow: 0 0 5px rgb(143, 142, 142);
 }
 
 .section-galeria-productos{
@@ -74,6 +81,8 @@ nav{
     text-align: center;
     color: black;
 }
+
+
 
 /* fin seccion productos destacados index */
 
@@ -94,6 +103,7 @@ nav{
 .text-regalos{
     color: black;
     font-size: 30px;
+    text-shadow: 0 0 5px rgb(134, 131, 131);
 
 }
 
@@ -212,6 +222,7 @@ footer i:hover{
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     text-align: center;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .texto-oferta-titulo{
