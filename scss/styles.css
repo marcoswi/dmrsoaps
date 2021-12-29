@@ -1,0 +1,235 @@
+header {
+  background-color: beige;
+}
+
+header nav {
+  background-color: beige;
+}
+
+/* inicio styles para el carrousel */
+.carousel-inner {
+  max-height: 500px;
+}
+
+.carousel-inner .carousel-item {
+  max-height: 500px;
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+  text-shadow: 0 0 10px black;
+  font-size: 20px;
+}
+
+/* fin styles para el carrousel */
+/* inicio styles para el seccion beneficios Index */
+.seccion-beneficios {
+  min-height: 200px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* fin styles para el seccion beneficios Index */
+/* inicio seccion productos destacados index */
+#container-titulo-productos-destacados {
+  text-align: center;
+  font-size: 50px;
+  background-color: beige;
+  height: 50px;
+}
+
+#container-titulo-productos-destacados #titulo-productos-destacados {
+  line-height: 100px;
+}
+
+.galeria-productos {
+  background-color: beige;
+  padding: 50px;
+  text-shadow: 0 0 5px #8f8e8e;
+}
+
+.galeria-productos .section-galeria-productos {
+  background-color: rgba(137, 43, 226, 0);
+}
+
+.galeria-productos .section-galeria-productos .card {
+  padding: 20px;
+  background-color: rgba(165, 42, 42, 0);
+  border: none;
+}
+
+.galeria-productos .section-galeria-productos .card .card-title {
+  padding: 20px;
+  text-align: center;
+  color: black;
+}
+
+/* fin seccion productos destacados index */
+/* Inicio seccion regalos index */
+#regalosEventos {
+  height: 400px;
+  background-color: tomato;
+  background-image: url(../img/regalos_jabones.jpeg);
+  background-size: cover;
+  background-position: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#regalosEventos .text-regalos {
+  color: black;
+  font-size: 30px;
+  text-shadow: 0 0 5px #868383;
+}
+
+#regalosEventos .btn {
+  color: black;
+  font-size: 25px;
+  border-color: black;
+}
+
+/* fin seccion regalos index */
+/* inicio styles para el footer */
+.footer {
+  background-color: #1b262b;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  height: 300px;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#footerTitle {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  color: white;
+}
+
+.redessociales {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer i {
+  color: white;
+  font-size: 50px;
+  margin: 20px;
+}
+
+footer i:hover {
+  color: gray;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* fin styles para el footer */
+/* inicio estilos pagina de contacto */
+.main-contacto {
+  background-color: white;
+}
+
+.main-contacto .seccion-contacto {
+  padding: 30px;
+}
+
+.main-contacto .btn-submit {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.main-contacto .imagen-contacto {
+  background-image: url(img/jabones_pagina_contacto.jpeg);
+  border-radius: 5px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* fin estilos pagina de contacto */
+/* inicio estilos pagina productos */
+#container-titulo-productos {
+  background-color: white;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+}
+
+/* fin estilos pagina productos */
+/* inicio estilos pagina sobre nosotros */
+.imagen-sobre-nosotros {
+  background-image: url(img/equipoDMR.jpeg);
+  border-radius: 5px;
+  height: 400px;
+  margin-top: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* fin estilos pagina sobre nosotros */
+/* inicio estilos pagina ofertas */
+.tematica-oferta-actual {
+  height: 400px;
+  background-color: chocolate;
+  background-image: url(img/navidad.jpg);
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.tematica-oferta-actual .texto-oferta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 0 0 10px black;
+}
+
+.tematica-oferta-actual .texto-oferta .texto-oferta-titulo {
+  font-size: 40px;
+}
+
+.tematica-oferta-actual .texto-oferta .texto-oferta-p {
+  font-size: 20px;
+}
+
+/* fin estilos pagina ofertas */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: beige;
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,27 @@
+/* inicio estilos pagina ofertas */
+
+.tematica-oferta-actual{
+    height: 400px;
+    background-color: $colorPrimario;
+    background-image: url(img/navidad.jpg);
+    background-size: cover;
+    color: $colorTitulos;
+    position: relative;
+    & .texto-oferta{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+        text-shadow: $textshadow;
+        & .texto-oferta-titulo{
+            font-size: 40px;
+        }
+        & .texto-oferta-p{
+            font-size: 20px;
+        }
+    }
+}
+
+/* fin estilos pagina ofertas */

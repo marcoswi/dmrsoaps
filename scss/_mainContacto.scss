@@ -1,0 +1,23 @@
+
+/* inicio estilos pagina de contacto */
+
+.main-contacto{
+    background-color: $colorPrimario;
+    & .seccion-contacto{
+        padding: 30px;
+    }
+    & .btn-submit{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    & .imagen-contacto{
+        background-image: url(img/jabones_pagina_contacto.jpeg);
+        border-radius: 5px;
+        height: 400px;
+        margin-top: 20px;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+/* fin estilos pagina de contacto */

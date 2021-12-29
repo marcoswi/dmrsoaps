@@ -1,0 +1,86 @@
+
+/* inicio styles para el carrousel */
+
+.carousel-inner {
+    max-height: 500px;
+    & .carousel-item {
+        max-height: 500px;
+        & .carousel-caption{
+            text-shadow: 0 0 10px rgb(0, 0, 0);
+            font-size: 20px;
+        }
+    }
+}
+
+/* fin styles para el carrousel */
+
+/* inicio styles para el seccion beneficios Index */
+
+.seccion-beneficios {
+    min-height: 200px;
+    justify-content: center;
+    background-color: $colorPrimario;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/* fin styles para el seccion beneficios Index */
+
+/* inicio seccion productos destacados index */
+
+#container-titulo-productos-destacados{
+    text-align: center;
+    font-size: 50px;
+    background-color: $colorPrimario;
+    height: 50px;
+    & #titulo-productos-destacados{
+        line-height: 100px;
+    }
+}
+
+.galeria-productos{
+    background-color: $colorPrimario;
+    padding: 50px;
+    text-shadow: 0 0 5px rgb(143, 142, 142);
+    & .section-galeria-productos{
+        background-color: $colorSecundario;
+        & .card{
+            padding: 20px;
+            background-color: $colorSecundario;
+            border: none;
+            & .card-title {
+                padding: 20px;
+                text-align: center;
+                color: $colorTitulosDark;
+            }
+        }
+    }
+}
+
+/* fin seccion productos destacados index */
+
+/* Inicio seccion regalos index */
+
+#regalosEventos{
+    height: 400px;
+    background-color: $colorPrimario;
+    background-image: url(../img/regalos_jabones.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    & .text-regalos{
+        color: $colorTitulosDark;
+        font-size: 30px;
+        text-shadow: $textshadow;
+    }
+    & .btn {
+        color: $colorSecundario;
+        font-size: 25px;
+        border-color: $colorSecundario;
+    }
+}
+
+/* fin seccion regalos index */
