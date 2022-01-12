@@ -11,7 +11,6 @@ header nav {
   background-color: beige;
 }
 
-/* inicio styles para el carrousel */
 .carousel-inner {
   max-height: 500px;
 }
@@ -25,8 +24,6 @@ header nav {
   font-size: 20px;
 }
 
-/* fin styles para el carrousel */
-/* inicio styles para el seccion beneficios Index */
 .seccion-beneficios {
   min-height: 200px;
   -webkit-box-pack: center;
@@ -37,13 +34,11 @@ header nav {
   padding-bottom: 30px;
 }
 
-/* fin styles para el seccion beneficios Index */
-/* inicio seccion productos destacados index */
 #container-titulo-productos-destacados {
   text-align: center;
   font-size: 50px;
-  background-color: beige;
-  height: 50px;
+  background-color: white;
+  height: 100px;
 }
 
 #container-titulo-productos-destacados #titulo-productos-destacados {
@@ -52,17 +47,17 @@ header nav {
 
 .galeria-productos {
   background-color: beige;
-  padding: 50px;
+  padding: 20px;
   text-shadow: 0 0 5px #8f8e8e;
 }
 
 .galeria-productos .section-galeria-productos {
-  background-color: #1b262b;
+  background-color: beige;
 }
 
 .galeria-productos .section-galeria-productos .card {
   padding: 20px;
-  background-color: #1b262b;
+  background-color: beige;
   border: none;
 }
 
@@ -72,8 +67,6 @@ header nav {
   color: black;
 }
 
-/* fin seccion productos destacados index */
-/* Inicio seccion regalos index */
 #regalosEventos {
   height: 400px;
   background-color: beige;
@@ -107,7 +100,6 @@ header nav {
   border-color: #1b262b;
 }
 
-/* fin seccion regalos index */
 .footer {
   background-color: #1b262b;
   display: -ms-grid;
@@ -141,21 +133,20 @@ header nav {
           flex-direction: row;
 }
 
-.footer .redessociales footer i {
-  color: colorTitulos;
+.footer .redessociales .logoRedSocial {
+  color: white;
   font-size: 50px;
   margin: 20px;
 }
 
-.footer .redessociales footer i:hover {
+.footer .redessociales .logoRedSocial:hover {
   color: gray;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* inicio estilos pagina de contacto */
 .main-contacto {
-  background-color: beige;
+  background-color: white;
 }
 
 .main-contacto .seccion-contacto {
@@ -176,8 +167,6 @@ header nav {
   background-size: cover;
 }
 
-/* fin estilos pagina de contacto */
-/* inicio estilos pagina productos */
 #container-titulo-productos {
   background-color: beige;
   text-align: center;
@@ -185,9 +174,12 @@ header nav {
   line-height: 100px;
 }
 
-/* fin estilos pagina productos */
-/* inicio estilos pagina sobre nosotros */
-.imagen-sobre-nosotros {
+.main-sobreNosotros {
+  background-color: white;
+  padding: 20px;
+}
+
+.main-sobreNosotros .imagen-sobre-nosotros {
   background-image: url(../img/equipoDMR.jpeg);
   border-radius: 5px;
   height: 400px;
@@ -196,12 +188,10 @@ header nav {
   background-size: cover;
 }
 
-/* fin estilos pagina sobre nosotros */
-/* inicio estilos pagina ofertas */
 .tematica-oferta-actual {
   height: 400px;
   background-color: beige;
-  background-image: url(img/navidad.jpg);
+  background-image: url(../img/navidad.jpg);
   background-size: cover;
   color: white;
   position: relative;
@@ -225,7 +215,17 @@ header nav {
   font-size: 20px;
 }
 
-/* fin estilos pagina ofertas */
+#container-titulo-productos {
+  text-align: center;
+  font-size: 50px;
+  background-color: white;
+  height: 100px;
+}
+
+#container-titulo-productos #titulo-productos-destacados {
+  line-height: 100px;
+}
+
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: beige;

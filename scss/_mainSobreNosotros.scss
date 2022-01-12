@@ -1,12 +1,13 @@
-/* inicio estilos pagina sobre nosotros */
 
-.imagen-sobre-nosotros{
-    background-image: url(../img/equipoDMR.jpeg);
-    border-radius: 5px;
-    height: 400px;
-    margin-top: 20px;
-    background-position: center;
-    background-size: cover;
+.main-sobreNosotros {
+    background-color: $colorFondoBlanco;
+    padding: 20px;
+    & .imagen-sobre-nosotros{
+        background-image: url(../img/equipoDMR.jpeg);
+        border-radius: 5px;
+        height: 400px;
+        margin-top: 20px;
+        background-position: center;
+        background-size: cover;
+    }
 }
-
-/* fin estilos pagina sobre nosotros */

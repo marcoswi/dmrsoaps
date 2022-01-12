@@ -1,9 +1,8 @@
-/* inicio estilos pagina ofertas */
 
 .tematica-oferta-actual{
     height: 400px;
     background-color: $colorPrimario;
-    background-image: url(img/navidad.jpg);
+    background-image: url(../img/navidad.jpg);
     background-size: cover;
     color: $colorTitulos;
     position: relative;
@@ -24,4 +23,14 @@
     }
 }
 
-/* fin estilos pagina ofertas */
+#container-titulo-productos{
+    text-align: center;
+    font-size: 50px;
+    background-color: $colorFondoBlanco;
+    height: 100px;
+    & #titulo-productos-destacados{
+        line-height: 100px;
+    }
+}
+
+

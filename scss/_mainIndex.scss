@@ -1,5 +1,4 @@
 
-/* inicio styles para el carrousel */
 
 .carousel-inner {
     max-height: 500px;
@@ -12,9 +11,6 @@
     }
 }
 
-/* fin styles para el carrousel */
-
-/* inicio styles para el seccion beneficios Index */
 
 .seccion-beneficios {
     min-height: 200px;
@@ -24,15 +20,11 @@
     padding-bottom: 30px;
 }
 
-/* fin styles para el seccion beneficios Index */
-
-/* inicio seccion productos destacados index */
-
 #container-titulo-productos-destacados{
     text-align: center;
     font-size: 50px;
-    background-color: $colorPrimario;
-    height: 50px;
+    background-color: $colorFondoBlanco;
+    height: 100px;
     & #titulo-productos-destacados{
         line-height: 100px;
     }
@@ -40,13 +32,13 @@
 
 .galeria-productos{
     background-color: $colorPrimario;
-    padding: 50px;
+    padding: 20px;
     text-shadow: 0 0 5px rgb(143, 142, 142);
     & .section-galeria-productos{
-        background-color: $colorSecundario;
+        background-color: $colorPrimario;
         & .card{
             padding: 20px;
-            background-color: $colorSecundario;
+            background-color: $colorPrimario;
             border: none;
             & .card-title {
                 padding: 20px;
@@ -57,9 +49,6 @@
     }
 }
 
-/* fin seccion productos destacados index */
-
-/* Inicio seccion regalos index */
 
 #regalosEventos{
     height: 400px;
@@ -83,4 +72,3 @@
     }
 }
 
-/* fin seccion regalos index */

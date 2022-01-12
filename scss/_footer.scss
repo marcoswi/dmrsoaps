@@ -14,12 +14,12 @@
         grid-row: 2/3;
         display: flex;
         flex-direction: row;
-        & footer i{
-            color: colorTitulos;
+        & .logoRedSocial{
+            color: $colorTitulos;
             font-size: 50px;
             margin: 20px;
         }
-        footer i:hover{
+        .logoRedSocial:hover{
             color: $colorHover;
             transition: 0.3s;
         }

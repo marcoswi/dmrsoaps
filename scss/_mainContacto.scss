@@ -1,8 +1,7 @@
 
-/* inicio estilos pagina de contacto */
 
 .main-contacto{
-    background-color: $colorPrimario;
+    background-color: $colorFondoBlanco;
     & .seccion-contacto{
         padding: 30px;
     }
@@ -19,5 +18,3 @@
         background-size: cover;
     }
 }
-
-/* fin estilos pagina de contacto */
