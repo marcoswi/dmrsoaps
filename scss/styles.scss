@@ -1,4 +1,9 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
+@import "variables";
 @import "header";
 @import "mainIndex";
 @import "footer";
@@ -6,13 +11,6 @@
 @import "mainProductos";
 @import "mainSobreNosotros";
 @import "mainOfertas";
-@import "variables";
-
-
-* {
-    padding: 0px;
-    margin: 0px;
-}
 
 body {
     font-family: 'Roboto Condensed', sans-serif;

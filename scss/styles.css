@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 header {
   background-color: beige;
 }
@@ -27,7 +32,7 @@ header nav {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: white;
+  background-color: beige;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -52,12 +57,12 @@ header nav {
 }
 
 .galeria-productos .section-galeria-productos {
-  background-color: rgba(137, 43, 226, 0);
+  background-color: #1b262b;
 }
 
 .galeria-productos .section-galeria-productos .card {
   padding: 20px;
-  background-color: rgba(165, 42, 42, 0);
+  background-color: #1b262b;
   border: none;
 }
 
@@ -71,7 +76,7 @@ header nav {
 /* Inicio seccion regalos index */
 #regalosEventos {
   height: 400px;
-  background-color: tomato;
+  background-color: beige;
   background-image: url(../img/regalos_jabones.jpeg);
   background-size: cover;
   background-position: center;
@@ -97,13 +102,12 @@ header nav {
 }
 
 #regalosEventos .btn {
-  color: black;
+  color: #1b262b;
   font-size: 25px;
-  border-color: black;
+  border-color: #1b262b;
 }
 
 /* fin seccion regalos index */
-/* inicio styles para el footer */
 .footer {
   background-color: #1b262b;
   display: -ms-grid;
@@ -117,14 +121,14 @@ header nav {
           align-items: center;
 }
 
-#footerTitle {
+.footer #footerTitle {
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
   grid-row: 1/2;
   color: white;
 }
 
-.redessociales {
+.footer .redessociales {
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
   grid-row: 2/3;
@@ -137,22 +141,21 @@ header nav {
           flex-direction: row;
 }
 
-footer i {
-  color: white;
+.footer .redessociales footer i {
+  color: colorTitulos;
   font-size: 50px;
   margin: 20px;
 }
 
-footer i:hover {
+.footer .redessociales footer i:hover {
   color: gray;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-/* fin styles para el footer */
 /* inicio estilos pagina de contacto */
 .main-contacto {
-  background-color: white;
+  background-color: beige;
 }
 
 .main-contacto .seccion-contacto {
@@ -165,7 +168,7 @@ footer i:hover {
 }
 
 .main-contacto .imagen-contacto {
-  background-image: url(img/jabones_pagina_contacto.jpeg);
+  background-image: url(../img/jabones_pagina_contacto.jpeg);
   border-radius: 5px;
   height: 400px;
   margin-top: 20px;
@@ -176,7 +179,7 @@ footer i:hover {
 /* fin estilos pagina de contacto */
 /* inicio estilos pagina productos */
 #container-titulo-productos {
-  background-color: white;
+  background-color: beige;
   text-align: center;
   height: 100px;
   line-height: 100px;
@@ -185,7 +188,7 @@ footer i:hover {
 /* fin estilos pagina productos */
 /* inicio estilos pagina sobre nosotros */
 .imagen-sobre-nosotros {
-  background-image: url(img/equipoDMR.jpeg);
+  background-image: url(../img/equipoDMR.jpeg);
   border-radius: 5px;
   height: 400px;
   margin-top: 20px;
@@ -197,7 +200,7 @@ footer i:hover {
 /* inicio estilos pagina ofertas */
 .tematica-oferta-actual {
   height: 400px;
-  background-color: chocolate;
+  background-color: beige;
   background-image: url(img/navidad.jpg);
   background-size: cover;
   color: white;
@@ -211,7 +214,7 @@ footer i:hover {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
-  text-shadow: 0 0 10px black;
+  text-shadow: 0 0 5px #868383;
 }
 
 .tematica-oferta-actual .texto-oferta .texto-oferta-titulo {
@@ -223,11 +226,6 @@ footer i:hover {
 }
 
 /* fin estilos pagina ofertas */
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
 body {
   font-family: 'Roboto Condensed', sans-serif;
   background-color: beige;
