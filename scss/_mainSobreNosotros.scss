@@ -16,15 +16,15 @@
     background-color: $colorFondoBlanco;
 }
 
-$redes: (
-    red1: rgb(226, 210, 193),
-    red2: rgb(165, 156, 146),
-    red3: rgb(73, 69, 66)
+$pasos: (
+    nro1: rgb(226, 210, 193),
+    nro2: rgb(165, 156, 146),
+    nro3: rgb(73, 69, 66)
 );
 
-@each $red, $color in $redes {
-    .btn--#{$red} {
-        background-color: $color;
+@each $nro, $bkcolor in $pasos {
+    .paso--#{$nro} {
+        background-color: $bkcolor;
         border-radius: 5px;
         height: 100px;
         line-height: 100px;

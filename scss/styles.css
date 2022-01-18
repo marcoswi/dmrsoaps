@@ -195,7 +195,7 @@ header nav {
   background-color: white;
 }
 
-.btn--red1 {
+.paso--nro1 {
   background-color: #e2d2c1;
   border-radius: 5px;
   height: 100px;
@@ -211,7 +211,7 @@ header nav {
   text-shadow: 0 0 5px #868383;
 }
 
-.btn--red2 {
+.paso--nro2 {
   background-color: #a59c92;
   border-radius: 5px;
   height: 100px;
@@ -227,7 +227,7 @@ header nav {
   text-shadow: 0 0 5px #868383;
 }
 
-.btn--red3 {
+.paso--nro3 {
   background-color: #494542;
   border-radius: 5px;
   height: 100px;
